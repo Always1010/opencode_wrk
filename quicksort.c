@@ -23,9 +23,7 @@ int partition(int arr[], int low, int high) {
     return i + 1;
 }
 
-ffff
-
-void quicksort(int arr[], int lodfgdfgw, int high) {
+void quicksort(int arr[], int low, int high) {
     if (low < high) {
         int pi = partition(arr, low, high);
         quicksort(arr, low, pi - 1);
